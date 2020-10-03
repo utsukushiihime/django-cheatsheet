@@ -58,20 +58,30 @@ $ python3 manage.py runserver
 ```
 
 ***
-	
+
 ### The migrate command is used to update the database schema
 ```
 $ python3 manage.py migrate
 ```
+
 ***
-	
+
 ### Create migration files for all Models that have been added or changed since the last migration
 ```
 $ python3 manage.py makemigrations
 ```
+
 ***
 
 ### A super user is an administrator for the site. When you are logged in to this account, you can access the Admin app to add additional users and manipulate Model data.
 ```
 $ python3 manage.py createsuperuser
 ```
+
+***
+
+### Change your password
+```
+python3 manage.py changepassword <user_name>
+```
+	
