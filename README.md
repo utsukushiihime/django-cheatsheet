@@ -1,0 +1,2 @@
+# django-cheats
+Django Cheatsheets
